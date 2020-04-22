@@ -17,9 +17,9 @@ All the necessary configurations are externalized from the code and are part `ap
 1.  <b>spring.application.name</b>                -   Application Name
 2.  <b>server.port</b>                            -   Port on which application will run.
 3.  <b>keystore.name</b>                          -   Name of keystore in the classpath(resource directory, as we are using class path reader to read the file).
-4. <b>keystore.name</b>                           -   Alias of the certificate in the keystore to be used.
-5. <b>keystore.name</b>                           -   Password of keystore.
-6. <b>logging.level.root</b>                      -   Log level configuration.
+4.  <b>keystore.name</b>                          -   Alias of the certificate in the keystore to be used.
+5.  <b>keystore.name</b>                          -   Password of keystore.
+6.  <b>logging.level.root</b>                     -   Log level configuration.
 </pre>
 ## Build and Run
 1. Checkout repo.
