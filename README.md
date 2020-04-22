@@ -29,6 +29,15 @@ All the necessary configurations are externalized from the code and are part `ap
 ### Port Used 
 The appication is configured to run on port **8888** which can be changed by modifying **server.port** in application.properties 
 
-## Verify spring-security-ldap
+## Verify
+To generate a token for the user `admin` using its credentials, use the following curl
+```
+curl -X POST 'http://localhost:8888/oauth/token' \
+-H 'Authorization: Basic VEVTVF9DTElFTlQ6Y2xpZW50X3Bhc3M=' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'grant_type=password&username=admin&password=admin_pass
+```
 
+where, the value in the Authorization header is the Base64 encoded string of clientId and clientSecret of client `TEST_CLIENT`.
 
+Using this generated token, the protected resource at the resource server can be accessed.
