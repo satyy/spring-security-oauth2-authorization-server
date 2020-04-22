@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: authorization-server
+
+server:
+  port: 8888
+
+keystore:
+  name: oauth2-authorization-server.p12
+  alias: auth-server-cert
+  password: password
+
+logging:
+  level:
+    root: debug
