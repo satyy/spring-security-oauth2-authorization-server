@@ -1,5 +1,5 @@
 # spring-security-oauth2-authorization-server
-Demo application demonstrating how to setup a `OAuth2.0 Application Server` using Oauth2.0 and Spring boot which can be used to generate OAuth2.0 JWT token and also validate already the generated token.
+Demo application demonstrating how to setup a `OAuth2.0 Authorization Server` using Oauth2.0 and Spring boot which can be used to generate OAuth2.0 JWT token and also validate already the generated token.
 
 ## Pre-requisite:
 1. Java - 11
